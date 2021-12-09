@@ -38,7 +38,7 @@ public class StatusDisplay implements Observer, Display {
             int pilih = scan.nextInt();
             if (pilih == 1) {
                 System.out.println("\t> Brankas Terbuka <");
-                for (Iterator iter = item.getIterator(); iter.hasNext();) {
+                for (Adapter iter = item.getAdapter(); iter.hasNext();) {
                     String name = (String)iter.next();
                     System.out.println("\tItem : " + name);
                 }

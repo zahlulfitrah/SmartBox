@@ -2,7 +2,7 @@ public class Items implements Strategy {
     public String items[] = { "Emas", "Uang", "Berlian", "Hard Disk" };
 
     @Override
-    public Iterator getAdapter() {
+    public Adapter getAdapter() {
         return new ItemsIterate();
     }
 

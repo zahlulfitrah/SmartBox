@@ -1,3 +1,3 @@
 public interface Strategy {
-    public Iterator getAdapter();
+    public Adapter getAdapter();
 }
